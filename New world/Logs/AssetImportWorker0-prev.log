@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '2023.2/staging' branch; Version is '2023.2.17f1 (396a1c6fe404) revision 3762716'; Using compiler version '193431935'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'zh' Physical Memory: 32459 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16292 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.2.17f1\Editor\Unity.exe
+E:\unity saf\2023.2.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity/雲端/Metroidvania-Month-Jam-Team-HoYoLAB/New world
+C:/Users/a0932/OneDrive/桌面/2Dgame/Metroidvania-Month-Jam-Team-HoYoLAB/New world
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65241
+59382
 -job-worker-count
-3
+5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: C:/Unity/雲端/Metroidvania-Month-Jam-Team-HoYoLAB/New world
-C:/Unity/雲端/Metroidvania-Month-Jam-Team-HoYoLAB/New world
+Successfully changed project path to: C:/Users/a0932/OneDrive/桌面/2Dgame/Metroidvania-Month-Jam-Team-HoYoLAB/New world
+C:/Users/a0932/OneDrive/桌面/2Dgame/Metroidvania-Month-Jam-Team-HoYoLAB/New world
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -58,83 +58,67 @@ C:/Unity/雲端/Metroidvania-Month-Jam-Team-HoYoLAB/New world
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23376] Host "[IP] 192.168.0.141 [Port] 0 [Flags] 2 [Guid] 441271772 [EditorId] 441271772 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KRIFEOO2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [23376] Host "[IP] 192.168.0.141 [Port] 0 [Flags] 2 [Guid] 441271772 [EditorId] 441271772 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KRIFEOO2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
-[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Player connection [44452] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2130251788 [EditorId] 2130251788 [Version] 1048832 [Id] WindowsEditor(7,a48728341) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [44452] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2130251788 [EditorId] 2130251788 [Version] 1048832 [Id] WindowsEditor(7,a48728341) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.17f1 (396a1c6fe404)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity/雲端/Metroidvania-Month-Jam-Team-HoYoLAB/New world/Assets
+[Subsystems] Discovering subsystems at path E:/unity saf/2023.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/a0932/OneDrive/桌面/2Dgame/Metroidvania-Month-Jam-Team-HoYoLAB/New world/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   NVIDIA
-    VRAM:     1906 MB
-    Driver:   32.0.15.6094
+    VRAM:     5966 MB
+    Driver:   32.0.15.5612
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Mono path[0] = 'E:/unity saf/2023.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity saf/2023.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity saf/2023.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.006284 seconds.
-- Loaded All Assemblies, in  0.542 seconds
+Register platform support module: E:/unity saf/2023.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/unity saf/2023.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.002469 seconds.
+- Loaded All Assemblies, in  0.383 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 341 ms
-Native extension for UWP target not found
+Android Extension - Scanning For ADB Devices 199 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.950 seconds
-Domain Reload Profiling: 1490ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.533 seconds
+Domain Reload Profiling: 916ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (162ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (132ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (212ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (143ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (951ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (533ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (887ms)
+		SetupLoadedEditorAssemblies (482ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (485ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
+			InitializePlatformSupportModulesInManaged (296ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,65 +127,321 @@ Domain Reload Profiling: 1490ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Unity\雲端\Metroidvania-Month-Jam-Team-HoYoLAB\New world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity\雲端\Metroidvania-Month-Jam-Team-HoYoLAB\New world\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.122 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Native extension for Android target not found
-Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.220 seconds
-Domain Reload Profiling: 2339ms
-	BeginReloadAssembly (467ms)
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1367ms
+	BeginReloadAssembly (315ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (538ms)
-		LoadAssemblies (380ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (249ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (276ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (199ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1221ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (112ms)
+			BuildScriptInfoCaches (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (688ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (956ms)
+		SetupLoadedEditorAssemblies (525ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (831ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (453ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3735.
-Memory consumption went from 105.6 MB to 104.8 MB.
-Total: 7.632600 ms (FindLiveObjects: 0.478400 ms CreateObjectMapping: 0.498000 ms MarkObjects: 5.377600 ms  DeleteObjects: 1.277000 ms)
+Unloading 3142 unused Assets / (0.8 MB). Loaded Objects now: 3740.
+Memory consumption went from 106.1 MB to 105.2 MB.
+Total: 4.663800 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.132400 ms MarkObjects: 3.560800 ms  DeleteObjects: 0.667600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 698130.899742 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0e2fe58cfd25037b531f4cf89db70c9') in 0.130351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 604
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852307 seconds.
+  path: Assets/0
+  artifactKey: Guid(d1cce913b1f52f146887e9ca30b15d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0 using Guid(d1cce913b1f52f146887e9ca30b15d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a69d0a4bd71c160b0d106627e9fa83b0') in 0.0005276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.983186 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6580f7e5375de52dad5100538166a8b6') in 0.0530908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 605
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.190940 seconds.
+  path: Assets/0/体.png
+  artifactKey: Guid(c0f41efebfeaff642b5778361dc19a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/体.png using Guid(c0f41efebfeaff642b5778361dc19a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a32a68dbdd5ccb75a887fe848d244349') in 0.0111908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.639195 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '649bc76a935f80431c2a5212cabd23ef') in 0.0387347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 606
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.559539 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b48216e91f4c79c143c6192e1689bde') in 0.0621938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 606
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.943670 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f269fa1ee6bb86c1ebb423ded5f520b') in 0.0334567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.774439 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e94ccfd51521838d4fae2e2b6313dea') in 0.0355168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.071823 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a385a86df4e478d8462103a228620f') in 0.0710083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.114601 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ad8609b0cf0c833ec8b2c41f9061ec9') in 0.0377275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.975583 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b84f8e82e8224b9b2bb6a43867c4952') in 0.0403497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.020653 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f8431098ddee4cd3c79c404d0adaeaf') in 0.0602272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.053801 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e38966c057f4d04b8a5e3cffdd2f39a') in 0.0596561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.801849 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da446a8295e1c1c5db181a79281b9536') in 0.0617541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.563303 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479d324ed8adc91a8b4e53c6c905e67f') in 0.0530603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.792628 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b088f115bb3bf5079458eb1e923f7481') in 0.0295209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.642261 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7dd5f3c50942cbca2482d27953f684d') in 0.0347784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.403968 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6734fb37cff195b6f3a2e2007612ca21') in 0.0344919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.728595 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c36e1203e1b7552a8778af9f9007107') in 0.0298213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.382789 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0956a102176610518454f2536bd8fad7') in 0.0556352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.554812 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc7dbc4fd1d24150449e68c345ded96') in 0.0317995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.812828 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4a3ae87feb0c54528770b2a32a423e7') in 0.0300594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.400131 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '688fd6b739da7a1eb15f4bfacce7051d') in 0.0356014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.497227 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce57f8e265885a9ade49f5407b980ed') in 0.0553358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.533679 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73c5a1709b89cefe5a41d33a39d75e72') in 0.0548317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.838605 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7dd210dc2e0a0a2ab71c0f75dc523be') in 0.0303386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.489667 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b52612255757d6f13de7620270c3994e') in 0.0345555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.348457 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50d49cc8851a7828acb2d38f134e9fab') in 0.0386752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.345815 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efbeb58e8d3b4f13f30738f3784603dc') in 0.0697519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.973464 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8032fc718c88cf87d36dbebf55a562f3') in 0.036973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.723307 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3722e484900c5741163bf058db49ac0') in 0.0319612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.309523 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3bab68ba1d3a8af6b992d2c85a8f9f3') in 0.0355038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.268038 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd91244100675268248fadf7429448c4') in 0.0364429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 607
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.201573 seconds.
+  path: Assets/0/行秋.fbx
+  artifactKey: Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/0/行秋.fbx using Guid(df41711c63a9dba47a5872f71170a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31b756c22ce3ba1a0db6109644839225') in 0.0476301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 610
 
